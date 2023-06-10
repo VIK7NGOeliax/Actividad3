@@ -34,9 +34,9 @@ public class Deck1 {
         ArrayList<String> values = deck;
         Collections.shuffle(values);
         System.out.println("\n Se mezclo el Deck");
-        Iterator<String> nombreIterator2 = deck.iterator();
-        while(nombreIterator2.hasNext()){
-            String componente = nombreIterator2.next();
+        Iterator<String> mezcla2It = deck.iterator();
+        while(mezcla2It.hasNext()){
+            String componente = mezcla2It.next();
             System.out.println(componente+"--");
         }
     }
