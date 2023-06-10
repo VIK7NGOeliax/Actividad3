@@ -20,8 +20,8 @@ public class Deck1 {
         }
         Iterator<String> siguienteIt = deck.iterator();
         while(siguienteIt.hasNext()){
-            String componente = siguienteIt.next();
-            System.out.println(componente+"--");
+            String componente1 = siguienteIt.next();
+            System.out.println(componente1+"--");
         }
         shuffle(deck);
         head(deck);
@@ -36,8 +36,8 @@ public class Deck1 {
         System.out.println("\n Se mezclo el Deck");
         Iterator<String> mezcla2It = deck.iterator();
         while(mezcla2It.hasNext()){
-            String componente = mezcla2It.next();
-            System.out.println(componente+"--");
+            String componente1 = mezcla2It.next();
+            System.out.println(componente1+"--");
         }
     }
 
